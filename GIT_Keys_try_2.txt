@@ -1,0 +1,35 @@
+vnehe@DESKTOP-08L1PAM MINGW64 ~/.ssh (master)
+$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/vnehe/.ssh/id_rsa): vikask
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in vikask
+Your public key has been saved in vikask.pub
+The key fingerprint is:
+SHA256:+dOLIJ3/AFQvarubKmYsoTywLYlrLE7xt6k4TWzt6ZA vnehe@DESKTOP-08L1PAM
+The key's randomart image is:
++---[RSA 3072]----+
+|          .      |
+|         . .     |
+|        . . .    |
+|       . o .     |
+| .. .   S        |
+|. ++.. o = .     |
+|=*+E..o = + .    |
+|O*+.Boo. = + .   |
+|==o=o=..+.o.o    |
++----[SHA256]-----+
+
+vnehe@DESKTOP-08L1PAM MINGW64 ~/.ssh (master)
+$ ls -larg
+total 22
+-rw-r--r-- 1 197121  575 Jan 12 16:36 vikask.pub
+-rw-r--r-- 1 197121 2655 Jan 12 16:36 vikask
+-rw-r--r-- 1 197121  187 Jan 12 14:27 known_hosts
+drwxr-xr-x 1 197121    0 Jan 12 15:27 ../
+drwxr-xr-x 1 197121    0 Jan 12 16:36 ./
+c
+vnehe@DESKTOP-08L1PAM MINGW64 ~/.ssh (master)
+$ cat vikask.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD6w4ep2QSutvyPuvBTw4tx2xK9uCYoH1Xwy5Z/HfI2/UyMJdQc0S3RHh7/FuHINKkTH3Q2XpB4XUhPC6QOpIyJSXtXmAnDsUtXUjvhsc66KCNnvt4OcrP7LAYquz6eZ8aPWiuE04StLhkd0w64GIjf/6TElRhDQac5UzWjfpspLr4zw2/BO36MZ1nxchBVehPU0/PhQIhGbrtzVwDgq2vplDEXeVINI2vgsBlrJR2Neu98XbgjD7yEVZUok8NNLnHiesE0orHfxXDoNeGkM7I8GVPeYn4myvryVrVKHZOQWTNkbMujIadpGS/CdDzZG29K6RY2IzwcyF2nQwA2CrAMCPgz2DMe+zYoA2zNhInwYroa84rXEbtxo5lAPEluBn4cRlccTCz16k49MbsYBf/VcKeQQPUei2HrXV7pUxdwJitXsp46Gi4Zi6hEsGNpx76xnQzUR5/MT1cpf+1qHRw2eqvtTzTg/acerBmDeK2k7sWU/HXb4bEFl43cFTAnvXE= vnehe@DESKTOP-08L1PAM
